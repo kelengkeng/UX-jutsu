@@ -257,7 +257,7 @@ class _GDrive:
         body = {
             "name": file_name,
             "mimeType": mime_type,
-            "description": "Uploaded using Userge",
+            "description": file_name,
         }
         if parent_id:
             body["parents"] = [parent_id]
